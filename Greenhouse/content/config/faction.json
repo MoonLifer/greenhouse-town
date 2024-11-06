@@ -12,7 +12,7 @@
 		"boat" : "boatCastle",
 		"town" :
 		{
-			"musicTheme" : "music/town",
+			"musicTheme" : [ "music/town" ],
 			"townBackground": "background.bmp",
 			"guildWindow": "mageguild",
 			"guildBackground" : "mage",
@@ -38,8 +38,6 @@
 			"moatAbility" : "castleMoat",
 			"horde" : [ 1 ],
 			"mageGuild" : 5,
-			//"primaryResource" : "gem",
-			"warMachine" : "firstAidTent",
 			"buildingsIcons" : "menu.def",
 			"tavernVideo" : "Tavern",
 			"icons" :

@@ -197,6 +197,7 @@
 						"wood" : 5,
 						"gold" : 500
 					},
+					"marketModes" : ["resource-resource", "resource-player"],
 					"id" : 14
 				},
 				"resourceSilo" :
@@ -209,12 +210,13 @@
 						"ore" : 5,
 						"gold" : 5000
 					},
+					"produce": { "wood": 1, "ore" : 1},
 					"requires" : ["marketplace"],
 					"id" : 15
 				},
 				"blacksmith" :
 				{
-					"description" : "The Blacksmith provides your armies with Ballista.",
+					"description" : "The Blacksmith provides your armies with First Aid Tent.",
 					"name" : "Blacksmith",
 					"cost" :
 					{
@@ -222,6 +224,7 @@
 						"ore"  : 5,
 						"gold" : 600
 					},
+					"warMachine": "firstAidTent",
 					"id" : 16
 				},
 				"horde1" :
@@ -271,7 +274,7 @@
 //						"sulfur"  : 2,
 //						"gold" : 2000
 //					},					
-					"type" : "freelancersGuild"
+					"marketModes" : ["creature-resource"]
 				},
 				"special2" :
 				{
